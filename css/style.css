@@ -1,0 +1,247 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+
+.navbar-brand img{
+	height: 50px;
+}
+.navbar{
+	border-bottom: 3px solid #3A9AD9;
+}
+h3{
+	font-family: 'Courgette', cursive;
+}
+.navbar ul li a{
+	text-transform: uppercase;
+	color: #fff !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+#home{
+	min-height: 750px;
+	background-image: url(../img/salmon-dish-food-meal-46239.jpeg);
+	background-size: cover;
+	background-position:center;
+}
+.home-inner{
+	min-height: 750px;
+	background:rgba(0,0,0,0.6);
+}
+.home-inner h1{
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 100px;
+	font-family: 'Courgette', cursive;
+}
+.home-inner p{
+	color: #fff;
+	font-family: 'Courgette', cursive;
+}
+#home .btn-success{
+	border-radius: 0px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.3);
+	color: #000;
+	border: 2px solid #fff;
+	color: #fff;
+}
+#home .btn-success:hover{
+	border-radius: 0px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	background:transparent;
+	color: #000;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+
+#about{
+	min-height: 700px;
+	background-image: url(../img/about.jpeg);
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+.about-inner{
+	min-height: 700px;
+	background:rgba(0,0,0,0.6);
+}
+#about h3,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#about h2{
+	font-family: 'Courgette', cursive;
+}
+#about img{
+	height: 150px;
+    width: 130px;
+    margin: 14px 16px 0px 0px;
+    border-radius: 50%;
+}
+#about hr{
+	color: #ededed;
+	border-bottom: 1px solid #ededed;
+}
+
+/*order Section*/
+
+#order{
+	min-height: 700px;
+	color: #fff;
+	background: #354458;
+
+}
+#order .bg-gray{
+	background: #3A9AD9;
+}
+#order .btn-primary{
+	background:#DB3340;
+	border-radius: 0px;
+	border: 0px;
+}
+#order .btn-primary:hover{
+	background:#ededed;
+	color: #000;
+	border-radius: 0px;
+	border: 0px;
+}
+#order .card{
+
+	border-top:3px solid #3AD114;
+    border-right:0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+#order h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+#showcase{
+	min-height: 845px;
+	background: #ededed;
+}
+#showcase h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+.call-action{
+	height: 150px;
+	background: #BCC1C1;
+	text-transform: capitalize;
+}
+#call-action h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+.call-action .btn-success{
+	border: 0px;
+	border-radius: 0px;
+}
+
+#contact{
+	min-height: 550px;
+	background-image: url(../img/menu-restaurant-vintage-table.jpg);
+	background-position:  center;
+	background-size: cover;
+	color: #fff;
+}
+#contact h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+}
+#contact p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+.contact-inner{
+	min-height: 550px;
+	background:rgba(0,0,0,0.6);
+}
+#contact .form-control{
+	margin-top: 40px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #33cc33;
+    border-radius: 0;
+    color: #fff;
+}
+
+#contact #message{
+	margin-top: 40px;
+    height: 215px;
+    background: transparent;
+    border: 1px solid #33cc33;
+    border-radius: 0;
+    color: #fff;
+}
+.approve .btn-success{
+	border: 0px;
+	border-radius: 0px;
+}
+
+footer{
+	min-height: 300px;
+	background: #1a1a1a;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+footer a {
+	padding-right: 10px;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+footer fa{
+	font-size: 25px;
+}
+.address a:hover{
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+}
+
+footer ul{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	list-style: none;
+}
+footer .address p{
+	text-transform: capitalize;
+}
+footer h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+footer h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+.footer{
+	font-weight: bold;
+	font-size: 16px;
+}
+.go-top {
+    background-color: #eee;
+    bottom: 2em;
+    right: 2em;
+    color: #111112;
+    font-size: 22px;
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
